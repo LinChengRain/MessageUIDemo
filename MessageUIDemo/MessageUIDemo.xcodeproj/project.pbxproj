@@ -15,6 +15,7 @@
 		C36B591C1D76DE8500FDDBA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36B591A1D76DE8500FDDBA2 /* LaunchScreen.storyboard */; };
 		C36B59271D76DE8600FDDBA2 /* MessageUIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C36B59261D76DE8600FDDBA2 /* MessageUIDemoTests.m */; };
 		C36B59321D76DE8600FDDBA2 /* MessageUIDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C36B59311D76DE8600FDDBA2 /* MessageUIDemoUITests.m */; };
+		C36B59401D76DEC800FDDBA2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36B593F1D76DEC800FDDBA2 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C36B592D1D76DE8600FDDBA2 /* MessageUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36B59311D76DE8600FDDBA2 /* MessageUIDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageUIDemoUITests.m; sourceTree = "<group>"; };
 		C36B59331D76DE8600FDDBA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36B593F1D76DEC800FDDBA2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36B59401D76DEC800FDDBA2 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		C36B59001D76DE8300FDDBA2 = {
 			isa = PBXGroup;
 			children = (
+				C36B593F1D76DEC800FDDBA2 /* MessageUI.framework */,
 				C36B590B1D76DE8400FDDBA2 /* MessageUIDemo */,
 				C36B59251D76DE8600FDDBA2 /* MessageUIDemoTests */,
 				C36B59301D76DE8600FDDBA2 /* MessageUIDemoUITests */,
